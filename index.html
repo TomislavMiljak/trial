@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-dev-final-project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="font-family: Arial; font-weight: bold;">
+    <style>
+        body {
+            background-image: url(./stroop-brains.jpg);
+        }
+    </style>
+    <nav>
+        <p>Scroll down to read more</p>
+        <ul class="flex-container1">
+            <li class="flex1">
+                <a href="#The_Stroop_Effect">The Stroop Effect</a>
+            </li>
+            <!-- <li class="flex2">
+                <a href="#What_is_the_Stroop_Effect?">What is it?</a>
+            </li> -->
+            <li class="flex3">
+                <a href="#The_Stroop_Effect_in_scientific_research">Scientific research</a>
+            </li>
+            <li class="flex4"> 
+                <a href="#Experience_the_Stroop_Effect_Yourself">Experience it</a>
+            </li>
+            <li class="flex5">
+                <a href="#Variations_of_The_Stroop_Effect">Variations</a>
+            </li>
+            <li class="flex6">
+                <a href="#Importance_of_The_Stroop_Effect_for_Web-Dev">Importance</a>
+            </li>
+            <li class="flex7">
+                <a href="#Read_more_about_the_Stroop_Effect">Read more</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1 id="The_Stroop_Effect" class="The_Stroop_Effect">The Stroop Effect</h1>
+    </header>
+    <main>
+        <article class="first-art">
+            <h2 id="What_is_the_Stroop_Effect?">What is the Stroop Effect?</h2>
+            <p>
+                In psychology, the Stroop effect is the delay in reaction time between congruent and incongruent stimuli.
+                The effect has been used to create a psychological test (the Stroop test) that is widely used in clinical practice and investigation.
+                A basic task that demonstrates this effect occurs when there is a mismatch between the name of a color (e.g., "blue", "green", or "red") and the color it is printed in (i.e., the word "red" printed in blue ink instead of red ink). When asked to name the color of the word it takes longer and is more prone to errors when the color of the ink does not match the name of the color.
+                The effect is named after John Ridley Stroop, who first published the effect in English in 1935. The effect had previously been published in Germany in 1929 by other authors. The original paper by Stroop has been one of the most cited papers in the history of experimental psychology, leading to more than 700 Stroop-related articles in literature.
+            </p>
+
+        </article>
+        <article class="second-art">
+            <h2 id="The_Stroop_Effect_in_scientific_research">The Stroop Effect in scientific research</h2>
+            <p>
+                The effect was named after John Ridley Stroop, who published the effect in English in 1935 in an article in the Journal of Experimental Psychology entitled "Studies of interference in serial verbal reactions" that includes three different experiments. However, the effect was first published in 1929 in Germany by Erich Rudolf Jaensch, and its roots can be followed back to works of James McKeen Cattell and Wilhelm Maximilian Wundt in the nineteenth century.[3][4]
+                In his experiments, Stroop administered several variations of the same test for which three different kinds of stimuli were created: Names of colors appeared in black ink; Names of colors in a different ink than the color named; and Squares of a given color.
+                In the first experiment, words and conflict-words were used. The task required the participants to read the written color names of the words independently of the color of the ink (for example, they would have to read "purple" no matter what the color of the font). In experiment 2, stimulus conflict-words and color patches were used, and participants were required to say the ink-color of the letters independently of the written word with the second kind of stimulus and also name the color of the patches. If the word "purple" was written in red font, they would have to say "red", rather than "purple". When the squares were shown, the participant spoke the name of the color. Stroop, in the third experiment, tested his participants at different stages of practice at the tasks and stimuli used in the first and second experiments, examining learning effects.
+                Unlike researchers now using the test for psychological evaluation, Stroop used only the three basic scores, rather than more complex derivative scoring procedures. Stroop noted that participants took significantly longer to complete the color reading in the second task than they had taken to name the colors of the squares in Experiment 2. This delay had not appeared in the first experiment. Such interference were explained by the automation of reading, where the mind automatically determines the semantic meaning of the word (it reads the word "red" and thinks of the color "red"), and then must intentionally check itself and identify instead the color of the word (the ink is a color other than red), a process that is not automated.
+            </p>
+        </article>
+        <article class="third-art">
+            <h2 id="Experience_the_Stroop_Effect_Yourself">Experience the Stroop Effect Yourself</h2>
+            <div class="flex-container2">
+
+                <div id="flex1">
+                    <ul >
+                        <li>Congruent list:</li>
+                        <li style="color:red; font-weight: 900;">RED</li>
+                        <li style="color:green; font-weight: 900;">GREEN</li>
+                        <li style="color:red; font-weight: 900;">RED</li>
+                        <li style="color:blue; font-weight: 900;">BLUE</li>
+                        <li style="color:blue; font-weight: 900;">BLUE</li>
+                        <li style="color:yellow; font-weight: 900;">YELLOW</li>
+                        <li style="color:green; font-weight: 900;">GREEN</li>
+    
+                    </ul>
+                </div>
+                <div id="flex2">
+                    <ul >
+                        <li>Control list:</li>
+                        <li style="color:BLUE; font-weight: 900;">XXXXX</li>
+                        <li style="color:red; font-weight: 900;">XXXXX</li>
+                        <li style="color:yellow; font-weight: 900;">XXXXX</li>
+                        <li style="color:green; font-weight: 900;">XXXXX</li>
+                        <li style="color:green; font-weight: 900;">XXXXX</li>
+                        <li style="color:red; font-weight: 900;">XXXXX</li>
+                        <li style="color:yellow; font-weight: 900;">XXXXX</li>
+    
+                    </ul>
+    
+                </div>
+                <div id="flex3">
+                    <ul style=>
+                        <li>Incongruent list:</li>
+                        <li style="color:green; font-weight: 900;">BLUE</li>
+                        <li style="color:red; font-weight: 900;">YELLOW</li>
+                        <li style="color:red; font-weight: 900;">GREEN</li>
+                        <li style="color:blue; font-weight: 900;">RED</li>
+                        <li style="color:yellow; font-weight: 900;">BLUE</li>
+                        <li style="color:blue; font-weight: 900;">GREEN</li>
+                        <li style="color:green; font-weight: 900;">RED</li>
+    
+                    </ul>
+                </div>
+
+            </div>
+            
+            <br>
+            <p>
+                Take an online Stroop Effect test <a href="https://memorize.link/en/stroop/game" target="blank"> here.</a>
+            </p>
+        </article>
+        <article class="fourth-art">
+            <h2 id="Variations_of_The_Stroop_Effect">Variations of The Stroop Effect</h2>
+            
+            <p>
+                The Stroop test has additionally been modified to include other sensory modalities and variables, to study the effect of bilingualism, or to investigate the effect of emotions on interference.
+            </p>
+            <h3>Warped words</h3>
+            <p>
+                For example, the warped words Stroop effect produces the same findings similar to the original Stroop effect. Much like the Stroop task, the printed word's color is different from the ink color of the word; however, the words are printed in such a way that it is more difficult to read (typically curved-shaped). The idea here is the way the words are printed slows down both the brain's reaction and processing time, making it harder to complete the task.
+            </p>
+            <h3>The Emotional Stroop Effect</h3>
+            <p>
+                The emotional Stroop effect serves as an information processing approach to emotions. In an emotional Stroop task, an individual is given negative emotional words like "grief", "violence", and "pain" mixed in with more neutral words like "clock", "door", and "shoe". Just like in the original Stroop task, the words are colored and the individual is supposed to name the color. Research has revealed that individuals that are depressed are more likely to say the color of a negative word slower than the color of a neutral word. While both the emotional Stroop and the classic Stroop involve the need to suppress irrelevant or distracting information, there are differences between the two. The emotional Stroop effect emphasizes the conflict between the emotional relevance to the individual and the word; whereas, the classic Stroop effect examines the conflict between the incongruent color and word. The emotional Stroop effect has been used in psychology to test implicit biases such as racial bias via an implicit-association test. A notable study of this is Project Implicit from Harvard University which administered a test associating negative or positive emotions with pictures of race and measured the reaction time to determine racial preference.
+            </p>
+            <h3>The Spatial Stroop Effect</h3>
+            <p>
+                The spatial Stroop effect demonstrates interference between the stimulus location with the location in the stimuli. In one version of the spatial Stroop task, an up or down-pointing arrow appears randomly above or below a central point. Despite being asked to discriminate the direction of the arrow while ignoring its location, individuals typically make faster and more accurate responses to congruent stimuli (i.e., a down-pointing arrow located below the fixation sign) than to incongruent ones (i.e., an up-pointing arrow located below the fixation sign). A similar effect, the Simon effect, uses non-spatial stimuli.
+            </p>
+            <h3>The Numerical Stroop Effect</h3>
+            <p>
+                The Numerical Stroop effect demonstrates the close relationship between numerical values and physical sizes. Digits symbolize numerical values but they also have physical sizes. A digit can be presented as big or small (e.g., 5 vs. 5), irrespective of its numerical value. Comparing digits in incongruent trials (e.g., 3 5) is slower than comparing digits in congruent trials (e.g., 5 3) and the difference in reaction time is termed the numerical Stroop effect. The effect of irrelevant numerical values on physical comparisons (similar to the effect of irrelevant color words on responding to colors) suggests that numerical values are processed automatically (i.e., even when they are irrelevant to the task). 
+            </p>
+            <h3>The Reverse Stroop Effect</h3>
+            <p>
+                Another variant of the classic Stroop effect is the reverse Stroop effect. It occurs during a pointing task. In a reverse Stroop task, individuals are shown a page with a black square with an incongruent colored word in the middle—for instance, the word "red" written in the color green—with four smaller colored squares in the corners. One square would be colored green, one square would be red, and the two remaining squares would be other colors. Studies show that if the individual is asked to point to the color square of the written color (in this case, red) they would present a delay. Thus, incongruently-colored words significantly interfere with pointing to the appropriate square. However, some research has shown there is very little interference from incongruent color words when the objective is to match the color of the word.
+            </p>
+        </article>
+        <article class="fifth-art">
+            <h2 id="Importance_of_The_Stroop_Effect_for_Web-Dev">Importance of The Stroop Effect for Web-Dev</h2>
+            <p>
+                It's simple - don't interfere with the user's natural thought process. If you want someone to navigate through your interface with ease, you need to design things in such a way as to take advantage of naturally occurring human cognitive processes…and keep mixed messages to a minimum.
+                Your users will always prefer a transparent and intuitive experience. You don't want to make things harder than they need to be and you certainly don't want to be misleading.
+                <br>
+                
+                If you want to read more, click <a href="https://www.infragistics.com/community/blogs/b/ux/posts/easy-action-design">here.</a>
+            </p>
+        </article>
+        <article class="sixth-art">
+            <h2 id="Read_more_about_the_Stroop_Effect">Read more about the Stroop Effect</h2>
+            <p>
+                <ol>
+                    <li><a href="http://psychclassics.yorku.ca/Stroop/ " target=blank>J. Ridley Stroop - Studies of interference in serial verbal reactions</a></li>
+                    <li><a href="https://bpspsychub.onlinelibrary.wiley.com/doi/full/10.1111/bjop.12230#:~:text=Then%2C%20Stroop%20effects%20have%20been,et%20al.%2C%202005" target="blank">Barlow C. Wright - What Stroop tasks can tell us about selective attention from childhood to adulthood</a></li>
+                    <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0747563204001323" target="blank">Class Linnman et.al. - The Stroop Effect on the Internet</a></li>
+                    <li><a href="https://link.springer.com/article/10.3758/BF03192989" target="blank">Steven M. Silverstein et.al. - Development and validation of a World-Wide-Web-based neurocognitive assessment battery: WebNeuro</a></li>
+                    <li><a href="https://academic.oup.com/acn/article/36/1/99/5854704" target="blank">Jose A. Perianez et. al. - The construct validity of the Stroop Color-Word Test: Influence of Speed of Visual Search, Verbal Fluency, Working Memory, Cognitive Flexibility, and Conflict Monitoring</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Stroop_effect" target="blank">The Stroop Effect Wikipedia article</a></li>
+                </ol>
+            </p>
+        </article>
+    </main>
+    <footer>
+        <nav>
+            <p>Scroll up to read more</p>
+            <ul class="flex-container1">
+                <li class="flex1">
+                    <a href="#The_Stroop_Effect">The Stroop Effect</a>
+                </li>
+                <!-- <li class="flex2">
+                    <a href="#What_is_the_Stroop_Effect?">What is it?</a>
+                </li> -->
+                <li class="flex3">
+                    <a href="#The_Stroop_Effect_in_scientific_research">Scientific research</a>
+                </li>
+                <li class="flex4"> 
+                    <a href="#Experience_the_Stroop_Effect_Yourself">Experience it</a>
+                </li>
+                <li class="flex5">
+                    <a href="#Variations_of_The_Stroop_Effect">Variations</a>
+                </li>
+                <li class="flex6">
+                    <a href="#Importance_of_The_Stroop_Effect_for_Web-Dev">Importance</a>
+                </li>
+                <li class="flex7">
+                    <a href="#Read_more_about_the_Stroop_Effect">Read more</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>

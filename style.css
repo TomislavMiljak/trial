@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(184, 238, 184);
+    
+}
+nav {
+    display: flex;
+    background-color: rgb(121, 202, 121);  
+}
+ 
+
+.flex-container1 {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+    margin: 5px auto;
+    padding: 10px; 
+    border: 1px solid transparent;
+    background-color: rgb(121, 202, 121);
+    flex-direction: row;
+}
+
+ul {
+    /* display: flex;
+    justify-content: space-between; */
+    list-style-type: none; 
+    font-size: 15px; 
+    
+}
+ul li {
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 0.3rem;
+}
+ 
+.The_Stroop_Effect {
+    background-color: rgb(176, 220, 237);
+    width: 50%;
+    height: 50%;
+    margin: 5px auto;
+    padding: 30px 30px 30px 30px;;
+    border: 1px solid transparent
+}
+.first-art {
+    background-color: rgb(238, 199, 199);
+    width: 50%;
+    height: 50%;
+    margin: 5px auto;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid transparent;
+
+}
+
+.second-art {
+    background-color: rgb(236, 236, 178);
+    width: 50%;
+    height: 50%;
+    margin: 5px auto;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid transparent
+}
+
+.third-art {
+    background-color: rgb(176, 220, 237);
+    width: 50%;
+    /* height: 50%; */
+    margin: 5px auto;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid transparent 
+}
+.flex-container2 {
+    display: flex;
+    background-color: gainsboro;
+    width: 90%;
+    /* height: 50%; */
+    margin: 0 auto;
+    padding: 10px 40px 0px 10px;
+    border: 1px solid transparent;
+    flex-direction: row;
+}
+
+
+.fourth-art {
+    background-color: rgb(238, 199, 199);
+    width: 50%;
+    height: 50%;
+    margin: 5px auto;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid transparent
+}
+
+.fifth-art {
+    background-color: rgb(236, 236, 178);
+    width: 50%;
+    height: 50%;
+    margin: 5px auto;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid transparent
+}
+
+.sixth-art {
+    background-color: rgb(176, 220, 237);
+    width: 50%;
+    height: 50%;
+    margin: 5px auto;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid transparent
+}
+
+@media (max-width: 1800px) {
+    nav p {
+        display: none;
+    }
+}
+
+@media (max-width: 1450px) {
+    .flex-container2 {
+       
+       flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 1100px) {
+
+}
+
+@media (max-width: 670px) {
+    .flex-container2 div ul  {
+       font-size: 15px;
+       padding-left: 5px;
+    }
+    .sixth-art {
+        padding-left: 5px;
+    }
+    
+}
+
+@media (max-width: 490px) {
+
+    nav {
+        align-items: center;
+        justify-content: center;
+    }
+    nav .flex-container1 {
+        display: none;
+        
+    }
+    nav p {
+        display: contents;
+        font-size: 15px;
+        
+        
+    }
+}
+
+@media (max-width: 390px) {
+    .flex-container2 div ul {
+      padding-left: 1px;
+    } 
+}
